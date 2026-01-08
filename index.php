@@ -1460,7 +1460,7 @@
                 padding-bottom: 15px;
                 border-bottom: 3px solid #8b5cf6;
             ">
-                    5. Roadmap de Implementación
+                    5. Fases de Implementación
                 </h1>
 
                 <div style="position: relative; padding-left: 40px; margin-bottom: 40px;">
