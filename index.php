@@ -1020,16 +1020,16 @@
             </h3>
             <ol>
                 <li>
-                    <strong>Fase 1 – MVP (2 a 3 meses):</strong><br>
+                    <strong>Fase 1 – MVP:</strong><br>
                     Desarrollo de funcionalidades principales: captura de datos,
                     cotizaciones y sincronización.
                 </li>
                 <li>
-                    <strong>Fase 2 – Pruebas Piloto (1 mes):</strong><br>
+                    <strong>Fase 2 – Pruebas Piloto:</strong><br>
                     Implementación con un grupo reducido de usuarios para validación.
                 </li>
                 <li>
-                    <strong>Fase 3 – Lanzamiento Oficial (1 mes):</strong><br>
+                    <strong>Fase 3 – Lanzamiento Oficial:</strong><br>
                     Despliegue completo para el equipo comercial.
                 </li>
                 <li>
