@@ -740,21 +740,21 @@
                         <div class="roadmap-item">
                             <div class="roadmap-number bg-blue">1</div>
                             <div style="flex: 1; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #3b82f6;">
-                                <h4 style="font-weight: 700; color: #1e40af; margin-bottom: 0.75rem; font-size: 1.2rem;">Fase 1: MVP (2-3 meses)</h4>
+                                <h4 style="font-weight: 700; color: #1e40af; margin-bottom: 0.75rem; font-size: 1.2rem;">Fase 1: MVP</h4>
                                 <p style="color: #374151; font-size: 1rem;">Funcionalidades básicas: cotizaciones, captura de datos, sincronización</p>
                             </div>
                         </div>
                         <div class="roadmap-item">
                             <div class="roadmap-number bg-green">2</div>
                             <div style="flex: 1; background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #10b981;">
-                                <h4 style="font-weight: 700; color: #065f46; margin-bottom: 0.75rem; font-size: 1.2rem;">Fase 2: Pruebas Piloto (1 mes)</h4>
+                                <h4 style="font-weight: 700; color: #065f46; margin-bottom: 0.75rem; font-size: 1.2rem;">Fase 2: Pruebas Piloto</h4>
                                 <p style="color: #374151; font-size: 1rem;">Beta testing con 5-10 clientes, optimización basada en feedback</p>
                             </div>
                         </div>
                         <div class="roadmap-item">
                             <div class="roadmap-number bg-purple">3</div>
                             <div style="flex: 1; background: linear-gradient(135deg, #e9d5ff 0%, #d8b4fe 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #8b5cf6;">
-                                <h4 style="font-weight: 700; color: #6b21a8; margin-bottom: 0.75rem; font-size: 1.2rem;">Fase 3: Lanzamiento Oficial (1 mes)</h4>
+                                <h4 style="font-weight: 700; color: #6b21a8; margin-bottom: 0.75rem; font-size: 1.2rem;">Fase 3: Lanzamiento Oficial</h4>
                                 <p style="color: #374151; font-size: 1rem;">Implementación completa, onboarding de clientes, soporte continuo</p>
                             </div>
                         </div>
@@ -981,7 +981,6 @@
             </h3>
             <ul>
                 <li>Aplicación móvil nativa (Android / iOS).</li>
-                <li>Captura de datos de clientes con funcionamiento offline.</li>
                 <li>Sincronización automática con el sistema Gaia Web.</li>
                 <li>Generación de cotizaciones en tiempo real.</li>
                 <li>Cierre de ventas directamente desde el dispositivo móvil.</li>
