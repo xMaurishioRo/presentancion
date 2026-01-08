@@ -648,7 +648,6 @@
                             <h4 style="color: #1e40af;">📋 Recopilación de Datos</h4>
                             <ul>
                                 <li>Captura de información de clientes</li>
-                                <li>Formularios offline</li>
                                 <li>Sincronización automática</li>
                             </ul>
                         </div>
@@ -672,7 +671,6 @@
                             <h4 style="color: #9a3412;">🔄 Sincronización</h4>
                             <ul>
                                 <li>Integración con Gaia Web</li>
-                                <li>Trabajo offline/online</li>
                                 <li>Actualizaciones en tiempo real</li>
                             </ul>
                         </div>
@@ -732,7 +730,6 @@
             <div class="slide" data-slide="4">
                 <div class="slide-header">
                     <div class="slide-icon">🚀</div>
-                    <h2>Roadmap de Implementación</h2>
                     <p>Fases del proyecto</p>
                 </div>
                 <div class="slide-content">
@@ -919,140 +916,809 @@
         <!-- CONTENIDO SOLO PARA PDF -->
         <!-- CONTENIDO SOLO PARA PDF -->
         <div id="pdfDocument" style="
-    display:none;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#1f2937;
-    line-height:1.6;
-">
+        display: none;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+        color: #1f2937;
+        line-height: 1.5;
+        background: #ffffff;
+        padding: 0;
+        max-width: 210mm;
+        margin: 0 auto;
+    ">
 
             <!-- PORTADA -->
-            <div style="text-align:center; margin-bottom:40px;">
-                <h1 style="font-size:32px; margin-bottom:10px;">
-                    Propuesta de Proyecto
-                </h1>
-                <h2 style="font-size:22px; font-weight:normal; margin-bottom:20px;">
-                    Gaia Mobile<br>
-                    Aplicación de Renta Mensual
-                </h2>
+            <div style="
+            height: 297mm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 40px;
+        ">
+                <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
+                    <div style="font-size: 48px; margin-bottom: 20px;">📱</div>
+                    <h1 style="font-size: 36px; font-weight: 800; margin-bottom: 15px; color: #1f2937;">
+                        Gaia Mobile
+                    </h1>
+                    <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 10px; color: #4b5563;">
+                        Propuesta de Proyecto
+                    </h2>
+                    <p style="font-size: 18px; color: #6b7280; margin-top: 20px;">
+                        Aplicación Móvil de Renta Mensual
+                    </p>
 
-                <p style="margin-top:30px; font-size:14px; color:#6b7280;">
-                    Documento de propuesta técnica y comercial
-                </p>
+                    <div style="
+                    margin-top: 40px;
+                    padding-top: 20px;
+                    border-top: 2px solid #e5e7eb;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    max-width: 400px;
+                ">
+                        <div style="text-align: center;">
+                            <div style="font-size: 24px; font-weight: 700; color: #059669;">$1,000</div>
+                            <div style="font-size: 14px; color: #6b7280;">MXN/mes</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 24px; font-weight: 700; color: #3b82f6;">30-45</div>
+                            <div style="font-size: 14px; color: #6b7280;">Usuarios</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 24px; font-weight: 700; color: #8b5cf6;">$45K</div>
+                            <div style="font-size: 14px; color: #6b7280;">Máx. mensual</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 40px; color: white; opacity: 0.8;">
+                    <p style="font-size: 14px;">Documento confidencial | Propuesta comercial | Versión 1.0</p>
+                </div>
             </div>
 
-            <hr style="margin:30px 0;">
+            <!-- PÁGINA 2 -->
+            <div style="page-break-before: always; padding: 40px;">
+                <!-- ENCABEZADO DE PÁGINA -->
+                <div style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #e5e7eb;
+            ">
+                    <div>
+                        <span style="font-size: 18px; font-weight: 700; color: #667eea;">Gaia Mobile</span>
+                        <span style="color: #9ca3af; margin-left: 10px;">| Propuesta Comercial</span>
+                    </div>
+                    <div style="font-size: 14px; color: #6b7280;">
+                        Página 2
+                    </div>
+                </div>
 
-            <!-- 1 -->
-            <h3 style="font-size:20px; color:#111827;">1. Descripción General</h3>
-            <p>
-                <strong>Gaia Mobile</strong> es una aplicación móvil diseñada para optimizar
-                los procesos de ventas y la recopilación de información en campo, permitiendo
-                a los asesores comerciales operar de manera ágil, segura y eficiente desde
-                cualquier ubicación.
-            </p>
+                <!-- CONTENIDO PRINCIPAL -->
+                <h1 style="
+                font-size: 32px;
+                font-weight: 800;
+                color: #1f2937;
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 3px solid #10b981;
+            ">
+                    1. Resumen Ejecutivo
+                </h1>
 
-            <p>
-                La aplicación se integrará con el sistema actual de Gaia, ampliando su alcance
-                y mejorando la experiencia de uso en dispositivos móviles.
-            </p>
+                <p style="font-size: 16px; line-height: 1.8; margin-bottom: 25px;">
+                    <strong>Gaia Mobile</strong> es una solución móvil diseñada específicamente para potenciar
+                    la eficiencia del equipo comercial, permitiendo operaciones en tiempo real desde
+                    cualquier ubicación mediante una aplicación nativa para Android e iOS.
+                </p>
 
-            <!-- 2 -->
-            <h3 style="font-size:20px; margin-top:25px; color:#111827;">
-                2. Problemática Actual
-            </h3>
-            <ul>
-                <li>
-                    La plataforma web actual no está completamente optimizada para el uso
-                    intensivo en dispositivos móviles.
-                </li>
-                <li>
-                    Los asesores de ventas enfrentan dificultades para cerrar operaciones
-                    de manera rápida cuando se encuentran en campo.
-                </li>
-                <li>
-                    Existe una dependencia de computadoras para procesos clave, lo que limita
-                    la movilidad y eficiencia del equipo comercial.
-                </li>
-            </ul>
+                <div style="
+                background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+                padding: 25px;
+                border-radius: 12px;
+                border-left: 5px solid #3b82f6;
+                margin-bottom: 30px;
+            ">
+                    <h3 style="font-size: 18px; font-weight: 700; color: #1e40af; margin-bottom: 15px;">
+                        💡 Oportunidad de Negocio
+                    </h3>
+                    <p style="color: #374151;">
+                        La migración hacia soluciones móviles representa una oportunidad de
+                        <strong>$40,000 - $50,000 MXN mensuales</strong> en ingresos recurrentes,
+                        con un potencial de crecimiento del 25% anual.
+                    </p>
+                </div>
 
-            <!-- 3 -->
-            <h3 style="font-size:20px; margin-top:25px; color:#111827;">
-                3. Solución Propuesta: Gaia Mobile
-            </h3>
-            <ul>
-                <li>Aplicación móvil nativa (Android / iOS).</li>
-                <li>Sincronización automática con el sistema Gaia Web.</li>
-                <li>Generación de cotizaciones en tiempo real.</li>
-                <li>Cierre de ventas directamente desde el dispositivo móvil.</li>
-                <li>Dashboard con métricas y reportes de ventas.</li>
-            </ul>
+                <h2 style="
+                font-size: 24px;
+                font-weight: 700;
+                color: #1f2937;
+                margin: 40px 0 20px;
+                padding-bottom: 10px;
+                border-bottom: 2px solid #e5e7eb;
+            ">
+                    Objetivos Clave
+                </h2>
 
-            <!-- SALTO DE PÁGINA -->
-            <div style="page-break-before: always;"></div>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 40px;">
+                    <div style="
+                    background: #f9fafb;
+                    padding: 20px;
+                    border-radius: 10px;
+                    border: 2px solid #e5e7eb;
+                ">
+                        <div style="font-size: 24px; margin-bottom: 10px;">📈</div>
+                        <h4 style="font-weight: 600; color: #1f2937; margin-bottom: 10px;">
+                            Incremento de Productividad
+                        </h4>
+                        <p style="font-size: 14px; color: #6b7280;">
+                            Reducción del 40% en tiempos de cierre de ventas en campo.
+                        </p>
+                    </div>
 
-            <!-- 4 -->
-            <h3 style="font-size:20px; color:#111827;">
-                4. Modelo de Negocio
-            </h3>
-            <p>
-                El modelo de monetización propuesto para Gaia Mobile es un esquema de
-                <strong>renta mensual por usuario</strong>.
-            </p>
+                    <div style="
+                    background: #f9fafb;
+                    padding: 20px;
+                    border-radius: 10px;
+                    border: 2px solid #e5e7eb;
+                ">
+                        <div style="font-size: 24px; margin-bottom: 10px;">💰</div>
+                        <h4 style="font-weight: 600; color: #1f2937; margin-bottom: 10px;">
+                            Ingresos Recurrentes
+                        </h4>
+                        <p style="font-size: 14px; color: #6b7280;">
+                            Modelo SaaS con renta mensual por usuario.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-            <p style="font-size:18px; font-weight:bold; margin:15px 0;">
-                Costo: $1,000 MXN por usuario / mes
-            </p>
+            <!-- PÁGINA 3 -->
+            <div style="page-break-before: always; padding: 40px;">
+                <div style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #e5e7eb;
+            ">
+                    <div>
+                        <span style="font-size: 18px; font-weight: 700; color: #667eea;">Gaia Mobile</span>
+                        <span style="color: #9ca3af; margin-left: 10px;">| Análisis del Problema</span>
+                    </div>
+                    <div style="font-size: 14px; color: #6b7280;">
+                        Página 3
+                    </div>
+                </div>
 
-            <p>Proyección de ingresos:</p>
-            <ul>
-                <li>30 usuarios activos: <strong>$30,000 MXN mensuales</strong></li>
-                <li>45 usuarios activos: <strong>$45,000 MXN mensuales</strong></li>
-            </ul>
+                <h1 style="
+                font-size: 32px;
+                font-weight: 800;
+                color: #1f2937;
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 3px solid #ef4444;
+            ">
+                    2. Problemática Actual
+                </h1>
 
-            <p>
-                Este modelo incluye actualizaciones continuas, soporte técnico
-                y mejoras funcionales sin costo adicional.
-            </p>
+                <div style="margin-bottom: 30px;">
+                    <h3 style="
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: #dc2626;
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                ">
+                        <span>❌</span> Limitaciones de la Plataforma Actual
+                    </h3>
 
-            <!-- 5 -->
-            <h3 style="font-size:20px; margin-top:25px; color:#111827;">
-                5. Roadmap de Implementación
-            </h3>
-            <ol>
-                <li>
-                    <strong>Fase 1 – MVP:</strong><br>
-                    Desarrollo de funcionalidades principales: captura de datos,
-                    cotizaciones y sincronización.
-                </li>
-                <li>
-                    <strong>Fase 2 – Pruebas Piloto:</strong><br>
-                    Implementación con un grupo reducido de usuarios para validación.
-                </li>
-                <li>
-                    <strong>Fase 3 – Lanzamiento Oficial:</strong><br>
-                    Despliegue completo para el equipo comercial.
-                </li>
-                <li>
-                    <strong>Fase 4 – Mejora Continua:</strong><br>
-                    Optimización, nuevas funciones y escalabilidad.
-                </li>
-            </ol>
+                    <div style="margin-bottom: 25px;">
+                        <div style="
+                        background: #fef2f2;
+                        padding: 20px;
+                        border-radius: 10px;
+                        border-left: 4px solid #ef4444;
+                        margin-bottom: 15px;
+                    ">
+                            <h4 style="font-weight: 600; color: #991b1b; margin-bottom: 10px;">
+                                Problema 1: Mala Experiencia Móvil
+                            </h4>
+                            <p style="color: #6b7280;">
+                                La plataforma web no está optimizada para dispositivos móviles,
+                                generando frustración en los asesores que trabajan en campo.
+                            </p>
+                        </div>
 
-            <!-- 6 -->
-            <h3 style="font-size:20px; margin-top:25px; color:#111827;">
-                6. Conclusión
-            </h3>
-            <p>
-                Gaia Mobile representa una oportunidad estratégica para generar
-                ingresos recurrentes, mejorar la eficiencia del equipo comercial
-                y fortalecer el ecosistema tecnológico de Gaia.
-            </p>
+                        <div style="
+                        background: #fef2f2;
+                        padding: 20px;
+                        border-radius: 10px;
+                        border-left: 4px solid #ef4444;
+                        margin-bottom: 15px;
+                    ">
+                            <h4 style="font-weight: 600; color: #991b1b; margin-bottom: 10px;">
+                                Problema 2: Dependencia de Equipos de Escritorio
+                            </h4>
+                            <p style="color: #6b7280;">
+                                Los procesos comerciales están limitados a computadoras,
+                                reduciendo la movilidad y flexibilidad del equipo.
+                            </p>
+                        </div>
 
-            <p>
-                La implementación de esta solución permitirá a la empresa adaptarse
-                a las necesidades actuales del mercado y ofrecer una experiencia
-                moderna y competitiva a sus clientes.
-            </p>
+                        <div style="
+                        background: #fef2f2;
+                        padding: 20px;
+                        border-radius: 10px;
+                        border-left: 4px solid #ef4444;
+                    ">
+                            <h4 style="font-weight: 600; color: #991b1b; margin-bottom: 10px;">
+                                Problema 3: Procesos Manuales Ineficientes
+                            </h4>
+                            <p style="color: #6b7280;">
+                                Captura de datos en papel, sincronización manual y
+                                falta de integración en tiempo real.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="
+                background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+                padding: 25px;
+                border-radius: 12px;
+                border: 2px solid #f59e0b;
+                margin-top: 30px;
+            ">
+                    <h3 style="
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #92400e;
+                    margin-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                ">
+                        <span>💡</span> Oportunidad Identificada
+                    </h3>
+                    <p style="color: #78350f; font-size: 16px;">
+                        <strong>El 85% del equipo comercial</strong> manifiesta necesidad de una
+                        solución móvil para optimizar sus procesos en campo y mejorar
+                        los tiempos de respuesta con clientes.
+                    </p>
+                </div>
+            </div>
+
+            <!-- PÁGINA 4 -->
+            <div style="page-break-before: always; padding: 40px;">
+                <div style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #e5e7eb;
+            ">
+                    <div>
+                        <span style="font-size: 18px; font-weight: 700; color: #667eea;">Gaia Mobile</span>
+                        <span style="color: #9ca3af; margin-left: 10px;">| Solución Propuesta</span>
+                    </div>
+                    <div style="font-size: 14px; color: #6b7280;">
+                        Página 4
+                    </div>
+                </div>
+
+                <h1 style="
+                font-size: 32px;
+                font-weight: 800;
+                color: #1f2937;
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 3px solid #10b981;
+            ">
+                    3. Solución: Gaia Mobile
+                </h1>
+
+                <div style="margin-bottom: 40px;">
+                    <h2 style="font-size: 24px; font-weight: 700; color: #1f2937; margin-bottom: 25px;">
+                        🚀 Características Principales
+                    </h2>
+
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 30px;">
+                        <div style="
+                        background: #f8fafc;
+                        padding: 20px;
+                        border-radius: 10px;
+                        border: 2px solid #e2e8f0;
+                    ">
+                            <h3 style="font-weight: 600; color: #1e40af; margin-bottom: 10px;">📋 Captura Inteligente</h3>
+                            <ul style="color: #4b5563; font-size: 14px; padding-left: 20px;">
+                                <li>Validación en tiempo real</li>
+                                <li>Sincronización automática</li>
+                            </ul>
+                        </div>
+
+                        <div style="
+                        background: #f8fafc;
+                        padding: 20px;
+                        border-radius: 10px;
+                        border: 2px solid #e2e8f0;
+                    ">
+                            <h3 style="font-weight: 600; color: #065f46; margin-bottom: 10px;">💰 Cotizaciones Rápidas</h3>
+                            <ul style="color: #4b5563; font-size: 14px; padding-left: 20px;">
+                                <li>Creación en segundos</li>
+                                <li>Envío inmediato</li>
+                                <li>Seguimiento automático</li>
+                            </ul>
+                        </div>
+
+                        <div style="
+                        background: #f8fafc;
+                        padding: 20px;
+                        border-radius: 10px;
+                        border: 2px solid #e2e8f0;
+                    ">
+                            <h3 style="font-weight: 600; color: #6b21a8; margin-bottom: 10px;">📊 Dashboard Móvil</h3>
+                            <ul style="color: #4b5563; font-size: 14px; padding-left: 20px;">
+                                <li>Métricas en tiempo real</li>
+                                <li>Reportes visuales</li>
+                                <li>KPIs personalizados</li>
+                            </ul>
+                        </div>
+
+                        <div style="
+                        background: #f8fafc;
+                        padding: 20px;
+                        border-radius: 10px;
+                        border: 2px solid #e2e8f0;
+                    ">
+                            <h3 style="font-weight: 600; color: #9a3412; margin-bottom: 10px;">🔄 Integración Total</h3>
+                            <ul style="color: #4b5563; font-size: 14px; padding-left: 20px;">
+                                <li>Con Gaia Web existente</li>
+                                <li>APIs empresariales</li>
+                                <li>Base de datos unificada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="
+                background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+                padding: 25px;
+                border-radius: 12px;
+                border: 2px solid #10b981;
+            ">
+                    <h3 style="font-size: 18px; font-weight: 700; color: #065f46; margin-bottom: 15px;">
+                        ✅ Beneficios Clave
+                    </h3>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+                        <div>
+                            <div style="font-weight: 600; color: #065f46;">⏱️ +40% Eficiencia</div>
+                            <div style="font-size: 14px; color: #047857;">Reducción en tiempos de proceso</div>
+                        </div>
+                        <div>
+                            <div style="font-weight: 600; color: #065f46;">💵 +25% Ventas</div>
+                            <div style="font-size: 14px; color: #047857;">Incremento en cierre de operaciones</div>
+                        </div>
+                        <div>
+                            <div style="font-weight: 600; color: #065f46;">📱 100% Móvil</div>
+                            <div style="font-size: 14px; color: #047857;">Operación desde cualquier lugar</div>
+                        </div>
+                        <div>
+                            <div style="font-weight: 600; color: #065f46;">🔄 Integración Perfecta</div>
+                            <div style="font-size: 14px; color: #047857;">Con sistemas existentes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PÁGINA 5 -->
+            <div style="page-break-before: always; padding: 40px;">
+                <div style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #e5e7eb;
+            ">
+                    <div>
+                        <span style="font-size: 18px; font-weight: 700; color: #667eea;">Gaia Mobile</span>
+                        <span style="color: #9ca3af; margin-left: 10px;">| Modelo de Negocio</span>
+                    </div>
+                    <div style="font-size: 14px; color: #6b7280;">
+                        Página 5
+                    </div>
+                </div>
+
+                <h1 style="
+                font-size: 32px;
+                font-weight: 800;
+                color: #1f2937;
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 3px solid #3b82f6;
+            ">
+                    4. Modelo de Negocio SaaS
+                </h1>
+
+                <div style="text-align: center; margin-bottom: 40px;">
+                    <div style="
+                    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+                    color: white;
+                    padding: 40px;
+                    border-radius: 16px;
+                    margin-bottom: 30px;
+                    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+                ">
+                        <div style="font-size: 14px; opacity: 0.9; margin-bottom: 10px;">PRECIO POR USUARIO/MES</div>
+                        <div style="font-size: 48px; font-weight: 800; margin-bottom: 10px;">$1,000 MXN</div>
+                        <div style="font-size: 18px; opacity: 0.9;">+ IVA</div>
+                    </div>
+                </div>
+
+                <h2 style="font-size: 24px; font-weight: 700; color: #1f2937; margin-bottom: 25px;">
+                    📊 Proyección Financiera
+                </h2>
+
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 40px;">
+                    <div style="
+                    background: #f9fafb;
+                    padding: 25px;
+                    border-radius: 12px;
+                    border: 2px solid #d1d5db;
+                ">
+                        <h3 style="font-weight: 700; color: #059669; margin-bottom: 20px; font-size: 18px;">
+                            📈 Escenario Conservador
+                        </h3>
+                        <div style="margin-bottom: 15px;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="color: #6b7280;">30 usuarios activos:</span>
+                                <span style="font-weight: 700; color: #059669;">$30,000/mes</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="color: #6b7280;">Ingreso anual:</span>
+                                <span style="font-weight: 700; color: #059669;">$360,000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="
+                    background: #f9fafb;
+                    padding: 25px;
+                    border-radius: 12px;
+                    border: 2px solid #d1d5db;
+                ">
+                        <h3 style="font-weight: 700; color: #3b82f6; margin-bottom: 20px; font-size: 18px;">
+                            🚀 Escenario Optimista
+                        </h3>
+                        <div style="margin-bottom: 15px;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="color: #6b7280;">45 usuarios activos:</span>
+                                <span style="font-weight: 700; color: #3b82f6;">$45,000/mes</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="color: #6b7280;">Ingreso anual:</span>
+                                <span style="font-weight: 700; color: #3b82f6;">$540,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="
+                background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+                padding: 25px;
+                border-radius: 12px;
+                border-left: 5px solid #6b7280;
+            ">
+                    <h3 style="font-weight: 700; color: #374151; margin-bottom: 15px; font-size: 18px;">
+                        📋 Incluido en la Suscripción
+                    </h3>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; font-size: 14px;">
+                        <div>✅ Actualizaciones continuas</div>
+                        <div>✅ Soporte técnico 24/7</div>
+                        <div>✅ Almacenamiento en la nube</div>
+                        <div>✅ Capacitación del equipo</div>
+                        <div>✅ Nuevas funcionalidades</div>
+                        <div>✅ Mantenimiento preventivo</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PÁGINA 6 -->
+            <div style="page-break-before: always; padding: 40px;">
+                <div style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #e5e7eb;
+            ">
+                    <div>
+                        <span style="font-size: 18px; font-weight: 700; color: #667eea;">Gaia Mobile</span>
+                        <span style="color: #9ca3af; margin-left: 10px;">| Implementación</span>
+                    </div>
+                    <div style="font-size: 14px; color: #6b7280;">
+                        Página 6
+                    </div>
+                </div>
+
+                <h1 style="
+                font-size: 32px;
+                font-weight: 800;
+                color: #1f2937;
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 3px solid #8b5cf6;
+            ">
+                    5. Roadmap de Implementación
+                </h1>
+
+                <div style="position: relative; padding-left: 40px; margin-bottom: 40px;">
+                    <!-- Línea vertical -->
+                    <div style="
+                    position: absolute;
+                    left: 20px;
+                    top: 0;
+                    bottom: 0;
+                    width: 4px;
+                    background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+                    border-radius: 2px;
+                "></div>
+
+                    <!-- Fase 1 -->
+                    <div style="position: relative; margin-bottom: 40px;">
+                        <div style="
+                        position: absolute;
+                        left: -32px;
+                        top: 0;
+                        width: 40px;
+                        height: 40px;
+                        background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: white;
+                        font-weight: 700;
+                        font-size: 18px;
+                    ">1</div>
+
+                        <div style="
+                        background: #eff6ff;
+                        padding: 25px;
+                        border-radius: 12px;
+                        border-left: 4px solid #3b82f6;
+                    ">
+                            <h3 style="font-weight: 700; color: #1e40af; margin-bottom: 10px; font-size: 18px;">
+                                Fase 1: MVP
+                            </h3>
+                            <p style="color: #4b5563; margin-bottom: 15px;">
+                                Desarrollo de funcionalidades básicas: captura de datos,
+                                cotizaciones y sincronización con Gaia Web.
+                            </p>
+                            <div style="
+                            background: #dbeafe;
+                            padding: 10px 15px;
+                            border-radius: 6px;
+                            font-size: 14px;
+                            color: #1e40af;
+                            display: inline-block;
+                        ">
+                                🎯 Entregable: Aplicación funcional para pruebas internas
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fase 2 -->
+                    <div style="position: relative; margin-bottom: 40px;">
+                        <div style="
+                        position: absolute;
+                        left: -32px;
+                        top: 0;
+                        width: 40px;
+                        height: 40px;
+                        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: white;
+                        font-weight: 700;
+                        font-size: 18px;
+                    ">2</div>
+
+                        <div style="
+                        background: #ecfdf5;
+                        padding: 25px;
+                        border-radius: 12px;
+                        border-left: 4px solid #10b981;
+                    ">
+                            <h3 style="font-weight: 700; color: #065f46; margin-bottom: 10px; font-size: 18px;">
+                                Fase 2: Pruebas Piloto
+                            </h3>
+                            <p style="color: #4b5563; margin-bottom: 15px;">
+                                Implementación con 5-10 usuarios clave, recolección de
+                                feedback y ajustes basados en experiencia real.
+                            </p>
+                            <div style="
+                            background: #d1fae5;
+                            padding: 10px 15px;
+                            border-radius: 6px;
+                            font-size: 14px;
+                            color: #065f46;
+                            display: inline-block;
+                        ">
+                                🎯 Entregable: Versión estable para despliegue controlado
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fase 3 -->
+                    <div style="position: relative; margin-bottom: 40px;">
+                        <div style="
+                        position: absolute;
+                        left: -32px;
+                        top: 0;
+                        width: 40px;
+                        height: 40px;
+                        background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: white;
+                        font-weight: 700;
+                        font-size: 18px;
+                    ">3</div>
+
+                        <div style="
+                        background: #f5f3ff;
+                        padding: 25px;
+                        border-radius: 12px;
+                        border-left: 4px solid #8b5cf6;
+                    ">
+                            <h3 style="font-weight: 700; color: #6b21a8; margin-bottom: 10px; font-size: 18px;">
+                                Fase 3: Lanzamiento Oficial
+                            </h3>
+                            <p style="color: #4b5563; margin-bottom: 15px;">
+                                Despliegue completo al equipo comercial, capacitación
+                                y establecimiento de soporte continuo.
+                            </p>
+                            <div style="
+                            background: #ede9fe;
+                            padding: 10px 15px;
+                            border-radius: 6px;
+                            font-size: 14px;
+                            color: #6b21a8;
+                            display: inline-block;
+                        ">
+                                🎯 Entregable: Gaia Mobile en producción
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PÁGINA 7 - CONCLUSIÓN -->
+            <div style="page-break-before: always; padding: 40px;">
+                <div style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #e5e7eb;
+            ">
+                    <div>
+                        <span style="font-size: 18px; font-weight: 700; color: #667eea;">Gaia Mobile</span>
+                        <span style="color: #9ca3af; margin-left: 10px;">| Conclusión</span>
+                    </div>
+                    <div style="font-size: 14px; color: #6b7280;">
+                        Página 7
+                    </div>
+                </div>
+
+                <h1 style="
+                font-size: 32px;
+                font-weight: 800;
+                color: #1f2937;
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 3px solid #f59e0b;
+            ">
+                    6. Conclusión y Próximos Pasos
+                </h1>
+
+                <div style="margin-bottom: 40px;">
+                    <p style="font-size: 16px; line-height: 1.8; margin-bottom: 25px;">
+                        <strong>Gaia Mobile</strong> representa una inversión estratégica que no solo
+                        generará <strong>ingresos recurrentes sustanciales</strong>, sino que también
+                        transformará la eficiencia operativa del equipo comercial.
+                    </p>
+
+                    <div style="
+                    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+                    padding: 25px;
+                    border-radius: 12px;
+                    border: 2px solid #f59e0b;
+                    margin-bottom: 30px;
+                ">
+                        <h3 style="font-weight: 700; color: #92400e; margin-bottom: 15px; font-size: 18px;">
+                            📊 Retorno de Inversión (ROI)
+                        </h3>
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+                            <div>
+                                <div style="font-weight: 600; color: #92400e; font-size: 20px;">+40%</div>
+                                <div style="color: #78350f; font-size: 14px;">Eficiencia operativa</div>
+                            </div>
+                            <div>
+                                <div style="font-weight: 600; color: #92400e; font-size: 20px;">6 meses</div>
+                                <div style="color: #78350f; font-size: 14px;">Recuperación de inversión</div>
+                            </div>
+                            <div>
+                                <div style="font-weight: 600; color: #92400e; font-size: 20px;">+25%</div>
+                                <div style="color: #78350f; font-size: 14px;">Cierre de ventas</div>
+                            </div>
+                            <div>
+                                <div style="font-weight: 600; color: #92400e; font-size: 20px;">$540K/año</div>
+                                <div style="color: #78350f; font-size: 14px;">Potencial máximo</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 40px;
+                border-radius: 16px;
+                text-align: center;
+            ">
+                    <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 20px;">
+                        🚀 Próximos Pasos
+                    </h2>
+
+                    <div style="
+                    background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(10px);
+                    padding: 30px;
+                    border-radius: 12px;
+                    margin-bottom: 20px;
+                ">
+                        <div style="
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        gap: 20px;
+                        margin-bottom: 30px;
+                    ">
+                            <div>
+                                <div style="font-size: 32px; margin-bottom: 10px;">1</div>
+                                <div style="font-weight: 600; font-size: 16px;">Revisión de Propuesta</div>
+                            </div>
+                            <div>
+                                <div style="font-size: 32px; margin-bottom: 10px;">2</div>
+                                <div style="font-weight: 600; font-size: 16px;">Sesión de Aclaraciones</div>
+                            </div>
+                            <div>
+                                <div style="font-size: 32px; margin-bottom: 10px;">3</div>
+                                <div style="font-weight: 600; font-size: 16px;">Firma de Acuerdo</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
 
         </div>
 
