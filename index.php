@@ -579,34 +579,40 @@
         <div class="slide-container" id="slideContainer">
             <!-- Slide 1 -->
             <div class="slide active" data-slide="0">
-                <div class="slide-header">
-                    <div class="slide-icon">📱</div>
-                    <h2>Gaia Mobile</h2>
-                    <p>Aplicación Móvil de Renta Mensual</p>
-                </div>
-                <div class="slide-content">
-                    <p style="text-align: center; font-size: 1.25rem; color: #4b5563; margin-bottom: 2rem; font-weight: 500;">
-                        Solución móvil para agilizar procesos de ventas y recopilación de datos en campo
-                    </p>
-                    <div class="grid-3">
-                        <div class="card card-blue">
-                            <div style="font-size: 3.5rem;">💵</div>
-                            <h3 class="text-blue">$1,000</h3>
-                            <p style="font-size: 1rem; color: #6b7280; font-weight: 500;">MXN/mes</p>
-                        </div>
-                        <div class="card card-green">
-                            <div style="font-size: 3.5rem;">👥</div>
-                            <h3 class="text-green">40-50</h3>
-                            <p style="font-size: 1rem; color: #6b7280; font-weight: 500;">Clientes potenciales</p>
-                        </div>
-                        <div class="card card-purple">
-                            <div style="font-size: 3.5rem;">📈</div>
-                            <h3 class="text-purple">$40-50K</h3>
-                            <p style="font-size: 1rem; color: #6b7280; font-weight: 500;">Ingresos mensuales</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="slide-header">
+        <div class="slide-icon">📱</div>
+        <h2>Gaia Mobile</h2>
+        <p>Aplicación Móvil de Renta Mensual</p>
+    </div>
+
+    <div class="slide-content">
+        <p
+            style="text-align: center; font-size: 1.25rem; color: #4b5563; margin-bottom: 2rem; font-weight: 500;">
+            Solución móvil para agilizar procesos de ventas y recopilación de datos en campo
+        </p>
+
+        <div class="grid-3">
+            <div class="card card-blue">
+                <div style="font-size: 3.5rem;">💵</div>
+                <h3 class="text-blue">$600</h3>
+                <p style="font-size: 1rem; color: #6b7280; font-weight: 500;">MXN/mes</p>
             </div>
+
+            <div class="card card-green">
+                <div style="font-size: 3.5rem;">👥</div>
+                <h3 class="text-green">40–50</h3>
+                <p style="font-size: 1rem; color: #6b7280; font-weight: 500;">Clientes potenciales</p>
+            </div>
+
+            <div class="card card-purple">
+                <div style="font-size: 3.5rem;">📈</div>
+                <h3 class="text-purple">$24K–$30K</h3>
+                <p style="font-size: 1rem; color: #6b7280; font-weight: 500;">Ingresos mensuales</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 
             <!-- Slide 2 -->
             <div class="slide" data-slide="1">
@@ -618,19 +624,25 @@
                 <div class="slide-content">
                     <div class="card card-red" style="margin-bottom: 1rem; text-align: left;">
                         <p style="font-weight: 600; color: #dc2626; font-size: 1.1rem;">❌ Vista móvil no responsiva</p>
-                        <p style="color: #6b7280; font-size: 1rem; margin-top: 0.75rem;">Algunos módulos no funcionan correctamente en dispositivos móviles</p>
+                        <p style="color: #6b7280; font-size: 1rem; margin-top: 0.75rem;">Algunos módulos no funcionan
+                            correctamente en dispositivos móviles</p>
                     </div>
                     <div class="card card-red" style="margin-bottom: 1rem; text-align: left;">
                         <p style="font-weight: 600; color: #dc2626; font-size: 1.1rem;">❌ Procesos lentos en campo</p>
-                        <p style="color: #6b7280; font-size: 1rem; margin-top: 0.75rem;">Asesores no pueden cerrar ventas rápidamente desde ubicaciones externas</p>
+                        <p style="color: #6b7280; font-size: 1rem; margin-top: 0.75rem;">Asesores no pueden cerrar
+                            ventas rápidamente desde ubicaciones externas</p>
                     </div>
                     <div class="card card-red" style="margin-bottom: 1rem; text-align: left;">
-                        <p style="font-weight: 600; color: #dc2626; font-size: 1.1rem;">❌ Dependencia de computadoras</p>
-                        <p style="color: #6b7280; font-size: 1rem; margin-top: 0.75rem;">Limitación para trabajar en movimiento o con clientes en sitio</p>
+                        <p style="font-weight: 600; color: #dc2626; font-size: 1.1rem;">❌ Dependencia de computadoras
+                        </p>
+                        <p style="color: #6b7280; font-size: 1rem; margin-top: 0.75rem;">Limitación para trabajar en
+                            movimiento o con clientes en sitio</p>
                     </div>
-                    <div class="card" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 5px solid #f59e0b; margin-top: 2rem; text-align: left;">
+                    <div class="card"
+                        style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 5px solid #f59e0b; margin-top: 2rem; text-align: left;">
                         <p style="font-weight: 600; color: #92400e; font-size: 1.1rem;">💡 Oportunidad</p>
-                        <p style="color: #78350f; font-size: 1rem; margin-top: 0.75rem;">Los clientes demandan una solución móvil nativa y optimizada</p>
+                        <p style="color: #78350f; font-size: 1rem; margin-top: 0.75rem;">Los clientes demandan una
+                            solución móvil nativa y optimizada</p>
                     </div>
                 </div>
             </div>
@@ -644,14 +656,16 @@
                 </div>
                 <div class="slide-content">
                     <div class="feature-grid">
-                        <div class="feature-card" style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border: 2px solid #3b82f6;">
+                        <div class="feature-card"
+                            style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border: 2px solid #3b82f6;">
                             <h4 style="color: #1e40af;">📋 Recopilación de Datos</h4>
                             <ul>
                                 <li>Captura de información de clientes</li>
                                 <li>Sincronización automática</li>
                             </ul>
                         </div>
-                        <div class="feature-card" style="background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); border: 2px solid #10b981;">
+                        <div class="feature-card"
+                            style="background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); border: 2px solid #10b981;">
                             <h4 style="color: #065f46;">💰 Cotizaciones y Ventas</h4>
                             <ul>
                                 <li>Cotizaciones en tiempo real</li>
@@ -659,7 +673,8 @@
                                 <li>Catálogo de productos</li>
                             </ul>
                         </div>
-                        <div class="feature-card" style="background: linear-gradient(135deg, #e9d5ff 0%, #d8b4fe 100%); border: 2px solid #8b5cf6;">
+                        <div class="feature-card"
+                            style="background: linear-gradient(135deg, #e9d5ff 0%, #d8b4fe 100%); border: 2px solid #8b5cf6;">
                             <h4 style="color: #6b21a8;">📊 Dashboard Móvil</h4>
                             <ul>
                                 <li>Métricas de ventas</li>
@@ -667,7 +682,8 @@
                                 <li>KPIs en tiempo real</li>
                             </ul>
                         </div>
-                        <div class="feature-card" style="background: linear-gradient(135deg, #fed7aa 0%, #fdba74 100%); border: 2px solid #f97316;">
+                        <div class="feature-card"
+                            style="background: linear-gradient(135deg, #fed7aa 0%, #fdba74 100%); border: 2px solid #f97316;">
                             <h4 style="color: #9a3412;">🔄 Sincronización</h4>
                             <ul>
                                 <li>Integración con Gaia Web</li>
@@ -683,88 +699,153 @@
                 <div class="slide-header">
                     <div class="slide-icon">💵</div>
                     <h2>Modelo de Negocio</h2>
-                    <p>Sistema de renta mensual</p>
+                    <p>Sistema de renta mensual accesible</p>
                 </div>
+
                 <div class="slide-content">
                     <div class="gradient-main">
-                        <h3 style="font-size: 2.5rem; margin-bottom: 0.5rem; font-weight: 700;">$1,000 MXN/mes</h3>
-                        <p style="font-size: 1.2rem;">Por usuario/asesor de ventas</p>
+                        <h3 style="font-size: 2.5rem; margin-bottom: 0.5rem; font-weight: 700;">
+                            $600 MXN/mes
+                        </h3>
+                        <p style="font-size: 1.2rem;">Por usuario / asesor de ventas</p>
                     </div>
+
                     <div class="grid-2" style="margin-bottom: 1.5rem;">
                         <div class="projection-card">
-                            <h4 style="font-weight: 700; margin-bottom: 1rem; font-size: 1.2rem; color: #1f2937;">📊 Proyección Conservadora</h4>
+                            <h4 style="font-weight: 700; margin-bottom: 1rem; font-size: 1.2rem; color: #1f2937;">
+                                📊 Proyección Conservadora
+                            </h4>
                             <div class="projection-row">
                                 <span style="color: #6b7280; font-weight: 500;">30 clientes activos:</span>
-                                <span style="font-weight: 700; color: #16a34a; font-size: 1.1rem;">$30,000</span>
+                                <span style="font-weight: 700; color: #16a34a; font-size: 1.1rem;">
+                                    $18,000
+                                </span>
                             </div>
                             <div class="projection-row">
                                 <span style="color: #6b7280; font-weight: 500;">Anual:</span>
-                                <span style="font-weight: 700; color: #16a34a; font-size: 1.1rem;">$360,000</span>
+                                <span style="font-weight: 700; color: #16a34a; font-size: 1.1rem;">
+                                    $216,000
+                                </span>
                             </div>
                         </div>
+
                         <div class="projection-card">
-                            <h4 style="font-weight: 700; margin-bottom: 1rem; font-size: 1.2rem; color: #1f2937;">🚀 Proyección Optimista</h4>
+                            <h4 style="font-weight: 700; margin-bottom: 1rem; font-size: 1.2rem; color: #1f2937;">
+                                🚀 Proyección Optimista
+                            </h4>
                             <div class="projection-row">
-                                <span style="color: #6b7280; font-weight: 500;">45 clientes activos:</span>
-                                <span style="font-weight: 700; color: #2563eb; font-size: 1.1rem;">$45,000</span>
+                                <span style="color: #6b7280; font-weight: 500;">50 clientes activos:</span>
+                                <span style="font-weight: 700; color: #2563eb; font-size: 1.1rem;">
+                                    $30,000
+                                </span>
                             </div>
                             <div class="projection-row">
                                 <span style="color: #6b7280; font-weight: 500;">Anual:</span>
-                                <span style="font-weight: 700; color: #2563eb; font-size: 1.1rem;">$540,000</span>
+                                <span style="font-weight: 700; color: #2563eb; font-size: 1.1rem;">
+                                    $360,000
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); padding: 2rem; border-radius: 16px; border: 2px solid #3b82f6;">
-                        <h4 style="color: #1e40af; font-weight: 700; margin-bottom: 1rem; font-size: 1.2rem;">✨ Incluye:</h4>
+
+                    <div
+                        style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); padding: 2rem; border-radius: 16px; border: 2px solid #3b82f6;">
+                        <h4 style="color: #1e40af; font-weight: 700; margin-bottom: 1rem; font-size: 1.2rem;">
+                            ✨ Incluye:
+                        </h4>
                         <ul style="list-style: none; padding: 0; color: #1f2937; font-size: 1rem;">
                             <li style="margin-bottom: 0.5rem;">✓ Actualizaciones continuas</li>
                             <li style="margin-bottom: 0.5rem;">✓ Soporte técnico</li>
                             <li style="margin-bottom: 0.5rem;">✓ Almacenamiento en la nube</li>
-                            <li>✓ Nuevas funcionalidades</li>
+                            <li>✓ Nuevas funcionalidades sin costo extra</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
+
             <!-- Slide 5 -->
             <div class="slide" data-slide="4">
-                <div class="slide-header">
-                    <div class="slide-icon">🚀</div>
-                    <p>Fases del proyecto</p>
-                </div>
-                <div class="slide-content">
-                    <div class="roadmap">
-                        <div class="roadmap-item">
-                            <div class="roadmap-number bg-blue">1</div>
-                            <div style="flex: 1; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #3b82f6;">
-                                <h4 style="font-weight: 700; color: #1e40af; margin-bottom: 0.75rem; font-size: 1.2rem;">Fase 1: MVP</h4>
-                                <p style="color: #374151; font-size: 1rem;">Funcionalidades básicas: cotizaciones, captura de datos, sincronización</p>
-                            </div>
-                        </div>
-                        <div class="roadmap-item">
-                            <div class="roadmap-number bg-green">2</div>
-                            <div style="flex: 1; background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #10b981;">
-                                <h4 style="font-weight: 700; color: #065f46; margin-bottom: 0.75rem; font-size: 1.2rem;">Fase 2: Pruebas Piloto</h4>
-                                <p style="color: #374151; font-size: 1rem;">Beta testing con 5-10 clientes, optimización basada en feedback</p>
-                            </div>
-                        </div>
-                        <div class="roadmap-item">
-                            <div class="roadmap-number bg-purple">3</div>
-                            <div style="flex: 1; background: linear-gradient(135deg, #e9d5ff 0%, #d8b4fe 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #8b5cf6;">
-                                <h4 style="font-weight: 700; color: #6b21a8; margin-bottom: 0.75rem; font-size: 1.2rem;">Fase 3: Lanzamiento Oficial</h4>
-                                <p style="color: #374151; font-size: 1rem;">Implementación completa, onboarding de clientes, soporte continuo</p>
-                            </div>
-                        </div>
-                        <div class="roadmap-item">
-                            <div class="roadmap-number bg-orange">4</div>
-                            <div style="flex: 1; background: linear-gradient(135deg, #fed7aa 0%, #fdba74 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #f97316;">
-                                <h4 style="font-weight: 700; color: #9a3412; margin-bottom: 0.75rem; font-size: 1.2rem;">Fase 4: Mejoras Continuas</h4>
-                                <p style="color: #374151; font-size: 1rem;">Nuevas funcionalidades, optimizaciones, escalabilidad</p>
-                            </div>
-                        </div>
-                    </div>
+    <div class="slide-header">
+        <div class="slide-icon">🚀</div>
+        <p>Fases del proyecto</p>
+    </div>
+
+    <div class="slide-content">
+        <div class="roadmap">
+
+            <!-- FASE 1 -->
+            <div class="roadmap-item">
+                <div class="roadmap-number bg-blue">1</div>
+                <div style="flex: 1; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #3b82f6;">
+                    <h4 style="font-weight: 700; color: #1e40af; margin-bottom: 0.5rem; font-size: 1.2rem;">
+                        Fase 1: MVP
+                    </h4>
+                    <p style="font-size: 0.9rem; font-weight: 600; color: #1e3a8a; margin-bottom: 0.5rem;">
+                        ⏱️ Duración estimada: 6–8 semanas
+                    </p>
+                    <p style="color: #374151; font-size: 1rem;">
+                        Desarrollo de 5–6 módulos base: cotizaciones, captura de datos, clientes, usuarios,
+                        sincronización y autenticación.
+                    </p>
                 </div>
             </div>
+
+            <!-- FASE 2 -->
+            <div class="roadmap-item">
+                <div class="roadmap-number bg-green">2</div>
+                <div style="flex: 1; background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #10b981;">
+                    <h4 style="font-weight: 700; color: #065f46; margin-bottom: 0.5rem; font-size: 1.2rem;">
+                        Fase 2: Pruebas Piloto
+                    </h4>
+                    <p style="font-size: 0.9rem; font-weight: 600; color: #065f46; margin-bottom: 0.5rem;">
+                        ⏱️ Duración estimada: 4 semanas
+                    </p>
+                    <p style="color: #374151; font-size: 1rem;">
+                        Beta con 5–10 clientes reales. Corrección de errores, ajustes de diseño,
+                        mejoras de rendimiento y validación de flujos reales de ventas.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FASE 3 -->
+            <div class="roadmap-item">
+                <div class="roadmap-number bg-purple">3</div>
+                <div style="flex: 1; background: linear-gradient(135deg, #e9d5ff 0%, #d8b4fe 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #8b5cf6;">
+                    <h4 style="font-weight: 700; color: #6b21a8; margin-bottom: 0.5rem; font-size: 1.2rem;">
+                        Fase 3: Lanzamiento Oficial
+                    </h4>
+                    <p style="font-size: 0.9rem; font-weight: 600; color: #6b21a8; margin-bottom: 0.5rem;">
+                        ⏱️ Duración estimada: 2–3 semanas (15 dias para playstore e ios)
+                    </p>
+                    <!-- <p style="color: #374151; font-size: 1rem;">
+                        Publicación en tiendas, onboarding de clientes, documentación,
+                        capacitación básica y activación de soporte.
+                    </p> -->
+                </div>
+            </div>
+
+            <!-- FASE 4 -->
+            <div class="roadmap-item">
+                <div class="roadmap-number bg-orange">4</div>
+                <div style="flex: 1; background: linear-gradient(135deg, #fed7aa 0%, #fdba74 100%); padding: 1.5rem 2rem; border-radius: 16px; border: 2px solid #f97316;">
+                    <h4 style="font-weight: 700; color: #9a3412; margin-bottom: 0.5rem; font-size: 1.2rem;">
+                        Fase 4: Mejoras Continuas
+                    </h4>
+                    <p style="font-size: 0.9rem; font-weight: 600; color: #9a3412; margin-bottom: 0.5rem;">
+                        ⏱️ Duración: Permanente
+                    </p>
+                    <p style="color: #374151; font-size: 1rem;">
+                        Nuevas funcionalidades, escalabilidad,
+                        mejoras solicitadas por clientes y evolución del producto.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 
             <!-- Slide 6 -->
             <!-- <div class="slide" data-slide="5">
@@ -938,7 +1019,8 @@
             text-align: center;
             padding: 40px;
         ">
-                <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
+                <div
+                    style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
                     <div style="font-size: 48px; margin-bottom: 20px;">📱</div>
                     <h1 style="font-size: 36px; font-weight: 800; margin-bottom: 15px; color: #1f2937;">
                         Gaia Mobile
@@ -960,17 +1042,20 @@
                     max-width: 400px;
                 ">
                         <div style="text-align: center;">
-                            <div style="font-size: 24px; font-weight: 700; color: #059669;">$1,000</div>
-                            <div style="font-size: 14px; color: #6b7280;">MXN/mes</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 24px; font-weight: 700; color: #3b82f6;">30-45</div>
-                            <div style="font-size: 14px; color: #6b7280;">Usuarios</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 24px; font-weight: 700; color: #8b5cf6;">$45K</div>
-                            <div style="font-size: 14px; color: #6b7280;">Máx. mensual</div>
-                        </div>
+    <div style="font-size: 24px; font-weight: 700; color: #059669;">$600</div>
+    <div style="font-size: 14px; color: #6b7280;">MXN/mes</div>
+</div>
+
+<div style="text-align: center;">
+    <div style="font-size: 24px; font-weight: 700; color: #3b82f6;">30–50</div>
+    <div style="font-size: 14px; color: #6b7280;">Usuarios</div>
+</div>
+
+<div style="text-align: center;">
+    <div style="font-size: 24px; font-weight: 700; color: #8b5cf6;">$30K</div>
+    <div style="font-size: 14px; color: #6b7280;">Máx. mensual</div>
+</div>
+
                     </div>
                 </div>
 
@@ -1024,14 +1109,14 @@
                 border-left: 5px solid #3b82f6;
                 margin-bottom: 30px;
             ">
-                    <h3 style="font-size: 18px; font-weight: 700; color: #1e40af; margin-bottom: 15px;">
+                    <!-- <h3 style="font-size: 18px; font-weight: 700; color: #1e40af; margin-bottom: 15px;">
                         💡 Oportunidad de Negocio
                     </h3>
                     <p style="color: #374151;">
                         La migración hacia soluciones móviles representa una oportunidad de
                         <strong>$40,000 - $50,000 MXN mensuales</strong> en ingresos recurrentes,
                         con un potencial de crecimiento del 25% anual.
-                    </p>
+                    </p> -->
                 </div>
 
                 <h2 style="
@@ -1239,7 +1324,8 @@
                         border-radius: 10px;
                         border: 2px solid #e2e8f0;
                     ">
-                            <h3 style="font-weight: 600; color: #1e40af; margin-bottom: 10px;">📋 Captura Inteligente</h3>
+                            <h3 style="font-weight: 600; color: #1e40af; margin-bottom: 10px;">📋 Captura Inteligente
+                            </h3>
                             <ul style="color: #4b5563; font-size: 14px; padding-left: 20px;">
                                 <li>Validación en tiempo real</li>
                                 <li>Sincronización automática</li>
@@ -1252,7 +1338,8 @@
                         border-radius: 10px;
                         border: 2px solid #e2e8f0;
                     ">
-                            <h3 style="font-weight: 600; color: #065f46; margin-bottom: 10px;">💰 Cotizaciones Rápidas</h3>
+                            <h3 style="font-weight: 600; color: #065f46; margin-bottom: 10px;">💰 Cotizaciones Rápidas
+                            </h3>
                             <ul style="color: #4b5563; font-size: 14px; padding-left: 20px;">
                                 <li>Creación en segundos</li>
                                 <li>Envío inmediato</li>
@@ -1359,9 +1446,18 @@
                     margin-bottom: 30px;
                     box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
                 ">
-                        <div style="font-size: 14px; opacity: 0.9; margin-bottom: 10px;">PRECIO POR USUARIO/MES</div>
-                        <div style="font-size: 48px; font-weight: 800; margin-bottom: 10px;">$1,000 MXN</div>
-                        <div style="font-size: 18px; opacity: 0.9;">+ IVA</div>
+                        <div style="font-size: 14px; opacity: 0.9; margin-bottom: 10px;">
+                            PRECIO POR USUARIO / MES
+                        </div>
+
+                        <div style="font-size: 48px; font-weight: 800; margin-bottom: 10px;">
+                            $600 MXN
+                        </div>
+
+                        <div style="font-size: 18px; opacity: 0.9;">
+                            + IVA
+                        </div>
+
                     </div>
                 </div>
 
@@ -1370,48 +1466,57 @@
                 </h2>
 
                 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 40px;">
+
+                    <!-- Escenario Conservador -->
                     <div style="
-                    background: #f9fafb;
-                    padding: 25px;
-                    border-radius: 12px;
-                    border: 2px solid #d1d5db;
-                ">
+                        background: #f9fafb;
+                        padding: 25px;
+                        border-radius: 12px;
+                        border: 2px solid #d1d5db;
+                    ">
                         <h3 style="font-weight: 700; color: #059669; margin-bottom: 20px; font-size: 18px;">
                             📈 Escenario Conservador
                         </h3>
+
                         <div style="margin-bottom: 15px;">
                             <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
                                 <span style="color: #6b7280;">30 usuarios activos:</span>
-                                <span style="font-weight: 700; color: #059669;">$30,000/mes</span>
+                                <span style="font-weight: 700; color: #059669;">$18,000 / mes</span>
                             </div>
+
                             <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
                                 <span style="color: #6b7280;">Ingreso anual:</span>
-                                <span style="font-weight: 700; color: #059669;">$360,000</span>
+                                <span style="font-weight: 700; color: #059669;">$216,000</span>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Escenario Optimista -->
                     <div style="
-                    background: #f9fafb;
-                    padding: 25px;
-                    border-radius: 12px;
-                    border: 2px solid #d1d5db;
-                ">
+                        background: #f9fafb;
+                        padding: 25px;
+                        border-radius: 12px;
+                        border: 2px solid #d1d5db;
+                    ">
                         <h3 style="font-weight: 700; color: #3b82f6; margin-bottom: 20px; font-size: 18px;">
                             🚀 Escenario Optimista
                         </h3>
+
                         <div style="margin-bottom: 15px;">
                             <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
-                                <span style="color: #6b7280;">45 usuarios activos:</span>
-                                <span style="font-weight: 700; color: #3b82f6;">$45,000/mes</span>
+                                <span style="color: #6b7280;">50 usuarios activos:</span>
+                                <span style="font-weight: 700; color: #3b82f6;">$30,000 / mes</span>
                             </div>
+
                             <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
                                 <span style="color: #6b7280;">Ingreso anual:</span>
-                                <span style="font-weight: 700; color: #3b82f6;">$540,000</span>
+                                <span style="font-weight: 700; color: #3b82f6;">$360,000</span>
                             </div>
                         </div>
                     </div>
+
                 </div>
+
 
                 <div style="
                 background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
@@ -1502,6 +1607,9 @@
                             <h3 style="font-weight: 700; color: #1e40af; margin-bottom: 10px; font-size: 18px;">
                                 Fase 1: MVP
                             </h3>
+                            <p style="font-size: 14px; font-weight: 600; color: #1e3a8a; margin-bottom: 10px;">
+                                ⏱️ Duración estimada: 6–8 semanas
+                            </p>
                             <p style="color: #4b5563; margin-bottom: 15px;">
                                 Desarrollo de funcionalidades básicas: captura de datos,
                                 cotizaciones y sincronización con Gaia Web.
@@ -1546,6 +1654,9 @@
                             <h3 style="font-weight: 700; color: #065f46; margin-bottom: 10px; font-size: 18px;">
                                 Fase 2: Pruebas Piloto
                             </h3>
+                            <p style="font-size: 14px; font-weight: 600; color: #065f46; margin-bottom: 10px;">
+                                ⏱️ Duración estimada: 4 semanas
+                            </p>
                             <p style="color: #4b5563; margin-bottom: 15px;">
                                 Implementación con 5-10 usuarios clave, recolección de
                                 feedback y ajustes basados en experiencia real.
@@ -1590,6 +1701,9 @@
                             <h3 style="font-weight: 700; color: #6b21a8; margin-bottom: 10px; font-size: 18px;">
                                 Fase 3: Lanzamiento Oficial
                             </h3>
+                            <p style="font-size: 14px; font-weight: 600; color: #6b21a8; margin-bottom: 10px;">
+                                ⏱️ Duración estimada: 2–3 semanas
+                            </p>
                             <p style="color: #4b5563; margin-bottom: 15px;">
                                 Despliegue completo al equipo comercial, capacitación
                                 y establecimiento de soporte continuo.
@@ -1716,11 +1830,11 @@
                         </div>
                     </div>
 
-                    </div>
                 </div>
             </div>
-
         </div>
+
+    </div>
 
 
     </div>
@@ -1845,7 +1959,7 @@
 
         // Configurar puntos de navegación al hacer clic
         document.querySelectorAll('.dot').forEach(dot => {
-            dot.addEventListener('click', function() {
+            dot.addEventListener('click', function () {
                 const slideIndex = parseInt(this.getAttribute('data-slide'));
                 showSlide(slideIndex);
             });
